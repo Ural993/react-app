@@ -1,0 +1,18 @@
+@import '../../style/main-theme.scss';
+
+.toolbar{
+    height: 44px;
+    background-color: $bg-color;
+    border: $border;
+
+    .toolbar-content {
+        width: 312px;
+        height: 100%;
+        border-right: $border;
+        color: $primary-text-color;
+        font-size: 18px;
+        line-height: 21px;
+        padding-left: 15px;
+        padding-top: 11px;
+    }
+}

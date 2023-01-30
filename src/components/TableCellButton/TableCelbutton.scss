@@ -1,0 +1,38 @@
+@import '../../style/main-theme.scss';
+
+.tableCelbutton {
+    width: 55px;
+}
+
+.buttonGroup {
+    width: 55px;
+    height: 28px;
+    background-color: $bg-table;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 7px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 26px;
+    box-sizing: border-box;
+
+    .deleteIcon {
+        opacity: 0;
+        transition: 0.5s;
+    }
+}
+
+.buttonGroup:hover {
+    transition: 0.5s;
+    background-color: $bg-color;
+    .deleteIcon {
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+}
+
+.deleteIcon, .fileIcon:hover{
+    filter: brightness(120%);
+}

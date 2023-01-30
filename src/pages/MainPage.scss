@@ -1,0 +1,19 @@
+@import '../style/main-theme.scss';
+
+body {
+    background-color: $bg-table;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+
+    .rightblock {
+        width: 100%;
+    }
+}

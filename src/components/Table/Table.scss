@@ -1,0 +1,41 @@
+@import '../../style/main-theme.scss';
+
+table {
+	width: 100%;
+    background-color: $bg-table;
+
+    th {
+        color: $secondary-text-color;
+        height: 42px;
+        text-align: start;
+    }
+
+    th:first-child {
+        padding-left: 22px;
+    }
+
+    td {
+        color: $primary-text-color;
+        height: 60px;
+        text-align: start;
+        border-top: $border;
+    }
+
+    td:first-child{
+        width: 110px;
+    }
+
+    input {
+        background-color: $bg-table;
+        border: $border;
+        border-radius: 6px;
+        height: 36px;
+        width: 90%;
+        color: $input-text-color;
+        outline: 0 !important;
+        padding-left: 10px;
+    }
+}
+
+
+

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../style/fonts/Roboto-Regular.woff2") format("woff2"),
+      url("../style/fonts/Roboto-Regular.woff") format("woff"),
+  }
+
+// -------- Colors -----------
+
+$bg-color:#27272A;
+$bg-table:  #202124;
+$primary-text-color: #FFFFFF;
+$secondary-text-color: #A1A1AA;
+$input-text-color: #71717A;
+
+$border: 1px solid #414144;
